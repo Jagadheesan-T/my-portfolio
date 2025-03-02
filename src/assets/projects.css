@@ -1,0 +1,25 @@
+/* src/assets/projects.css */
+
+.projects-container {
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.projects-container h1 {
+    color: #333;
+}
+
+.projects-container ul {
+    padding: 0;
+}
+
+.projects-container li {
+    margin-bottom: 1.5rem;
+}
+
+.projects-container a {
+    color: #007bff;
+    text-decoration: none;
+}
