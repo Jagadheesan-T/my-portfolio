@@ -1,14 +1,38 @@
-import React from 'react';
-import '../assets/contact.css';
+import React from "react";
+import { motion } from "framer-motion";
+import "../assets/contact.css";
 
 const Contact = () => {
     return (
-        <div className="contact-container">
-            <h1>Contact Me</h1>
-            <p>Email: jagadheesanjsd@gmail.com</p>
-            <p>LinkedIn: <a href="https://www.linkedin.com/in/jagadheesan-t?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app " target="_blank" rel="noopener noreferrer">Jagadheesan</a></p>
-            <p>GitHub: <a href="https://github.com/Jagadheesan-T" target="_blank" rel="noopener noreferrer">Jagadheesan</a></p>
-        </div>
+        <motion.section 
+            className="contact-section"
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1 }}
+            viewport={{ once: true }}
+        >
+            <h2>Contact</h2>
+            <p>Let's connect and create something impactful.</p>
+
+            {/* Contact Details */}
+            <div className="contact-info">
+                <p>Email: <a href="mailto:your@email.com">jagadheesanjsd@gmail.com</a></p>
+                <p>Location: Dharmapuri, Tamil Nadu, India</p>
+            </div>
+
+            {/* Social Links as Buttons */}
+            <div className="social-buttons">
+                <a href="https://github.com/jagadheesan-t" target="_blank" rel="noopener noreferrer" className="contact-button">
+                    GitHub →
+                </a>
+                <a href="https://linkedin.com/in/jagadheesan-t" target="_blank" rel="noopener noreferrer" className="contact-button">
+                    LinkedIn →
+                </a>
+                <a href="https://twitter.com/jagadheesan-t" target="_blank" rel="noopener noreferrer" className="contact-button">
+                    Twitter →
+                </a>
+            </div>
+        </motion.section>
     );
 };
 

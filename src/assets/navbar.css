@@ -1,17 +1,31 @@
-/* src/assets/navbar.css */
-
-nav {
-    background-color: #333;
-    padding: 1rem;
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 15px;
+    z-index: 1000;
 }
 
-nav ul {
+.navbar ul {
     list-style: none;
     display: flex;
-    gap: 1rem;
+    gap: 20px;
 }
 
-nav a {
+.navbar ul li {
+    display: inline;
+}
+
+.navbar ul li a {
     color: white;
     text-decoration: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.navbar ul li a.active {
+    color: #b0b0b0;
 }

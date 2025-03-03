@@ -1,16 +1,86 @@
-/* src/assets/about.css */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@300&display=swap');
 
-.about-container {
-    padding: 2rem;
-    background-color: #fff;
+.about-section {
+    text-align: center;
+    padding: 6rem 2rem;
+    background-color: black;
+    color: white;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about-section h2 {
+    font-size: 3.5rem;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    color: #b0b0b0; /* Gray color */
+    margin-bottom: 2rem;
+}
+
+.about-section p {
+    font-size: 1.2rem;
+    font-family: 'Inter', sans-serif;
+    color: #b0b0b0;
+    line-height: 1.6;
+}
+
+.highlight {
+    color: #e0e0e0;
+    font-weight: bold;
+}
+
+/* New Sections */
+.philosophy, .skills, .beyond-coding {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.philosophy p {
+    font-style: italic;
+    color: #e0e0e0;
+    font-size: 1.2rem;
+}
+
+.skills h3, .beyond-coding h3 {
+    color: #e0e0e0;
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+}
+
+.skills p, .beyond-coding p {
+    font-size: 1.1rem;
+    color: #b0b0b0;
+}
+
+/* Button Section */
+.about-buttons {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+/* Fix for Resume Button Clickability */
+.resume-wrapper {
+    position: relative;
+    z-index: 10;
+}
+
+.resume-button {
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding: 0.8rem 1.5rem;
     border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    display: inline-block;
+    background: linear-gradient(135deg, #1a1a1a, #292929);
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-.about-container h1 {
-    color: #333;
-}
-
-.about-container p {
-    color: #666;
+.resume-button:hover {
+    background: white;
+    color: black;
+    box-shadow: 0 4px 15px rgba(255, 255, 255, 0.2);
 }

@@ -1,11 +1,29 @@
-import React from 'react';
-import '../assets/home.css';
+import React from "react";
+import { Element } from "react-scroll";
+import Projects from "./projects";
+import About from "./about";
+import Contact from "./contact";
+import "../assets/home.css";
 
 const Home = () => {
     return (
         <div className="home-container">
-            <h1>Welcome to My Portfolio</h1>
-            <p>Hi, I'm Jagadheesan, a web developer.</p>
+            <Element name="home" className="section">
+                <h1>Jagadheesan</h1>
+                <p>Hello!, here a passionate web developer.</p>
+            </Element>
+
+            <Element name="projects" className="section">
+                <Projects />
+            </Element>
+
+            <Element name="about" className="section">
+                <About />
+            </Element>
+
+            <Element name="contact" className="section">
+                <Contact />
+            </Element>
         </div>
     );
 };
