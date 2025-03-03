@@ -1,28 +1,28 @@
-🏆 Jagadheesan's Portfolio
-🚀 Live Site: Jagadheesan-T.github.io/Portfolio
+# 🏆 Jagadheesan's Portfolio  
 
-✨ Overview
-A premium black-and-white portfolio website designed to showcase my work, skills, and experience. Built with a modern UI, smooth animations, and a seamless user experience.
+🚀 **Live Site:** [Jagadheesan-T.github.io/Portfolio](https://Jagadheesan-T.github.io/Portfolio)  
 
-🛠 Tech Stack
-Frontend: React, Framer Motion
-Styling: CSS (Custom Animations)
-Deployment: GitHub Pages
+## ✨ Overview  
+A **premium black-and-white portfolio website** designed to showcase my work, skills, and experience. Built with a modern UI, smooth animations, and a seamless user experience.  
 
-🎨 Features
-✅ Minimal & Premium UI
-✅ Smooth Scroll & Animations
-✅ Dynamic Project Showcase
-✅ Downloadable Resume
-✅ Social Media Links as Buttons
-✅ Fully Responsive
+## 🛠 Tech Stack  
+- **Frontend:** React, Framer Motion  
+- **Styling:** CSS (Custom Animations)  
+- **Deployment:** GitHub Pages  
 
-🚀 Getting Started
-Clone & Run Locally
+## 🎨 Features  
+✅ **Minimal & Premium UI**  
+✅ **Smooth Scroll & Animations**  
+✅ **Dynamic Project Showcase**  
+✅ **Downloadable Resume**  
+✅ **Social Media Links as Buttons**  
+✅ **Fully Responsive**  
 
+## 🚀 Getting Started  
+
+### Clone & Run Locally  
+```sh
 git clone https://github.com/Jagadheesan-T/Portfolio.git
 cd Portfolio
 npm install
 npm start
-
-The website will be available at http://localhost:3000/.
