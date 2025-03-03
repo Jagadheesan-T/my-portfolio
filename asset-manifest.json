@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Jagadheesan-T/my-portfolio/static/css/main.1b619b94.css",
+    "main.js": "/Jagadheesan-T/my-portfolio/static/js/main.286688c1.js",
+    "static/js/453.acca0757.chunk.js": "/Jagadheesan-T/my-portfolio/static/js/453.acca0757.chunk.js",
+    "index.html": "/Jagadheesan-T/my-portfolio/index.html",
+    "main.1b619b94.css.map": "/Jagadheesan-T/my-portfolio/static/css/main.1b619b94.css.map",
+    "main.286688c1.js.map": "/Jagadheesan-T/my-portfolio/static/js/main.286688c1.js.map",
+    "453.acca0757.chunk.js.map": "/Jagadheesan-T/my-portfolio/static/js/453.acca0757.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1b619b94.css",
+    "static/js/main.286688c1.js"
+  ]
+}
